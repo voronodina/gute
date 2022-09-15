@@ -1,0 +1,260 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: url(fonmenu.jpg);
+}
+header{
+    height: 100%;
+}
+.conteiner{
+  margin: 0px;
+  padding: 0px;
+  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: palevioletred ;
+  
+}
+.contakt{
+    cursor: pointer;
+    color: green;
+    border-radius: 5px;
+    background-color: darkorange;
+    display: flex;
+    justify-items: end;
+    height: 35px ;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 4px 4px 4px #aaa;
+}
+.contakt:hover{
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+
+.grin{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(74, 224, 164)
+}
+.grin2 {
+    color: forestgreen;
+}
+.hed {
+    height: 100px;
+    background: cornsilk ;
+    display: flex;
+    justify-content: center;
+    border: 2px solid peru ;
+}
+.logo { 
+    width: 100px;
+    height: 100px;
+}
+.logomenu{
+    width: 200px;
+    height: 200px;
+}
+.hed h1 {
+    margin: 0px;
+    text-align: center;
+    font-size: 5rem;
+    cursor: pointer;
+    text-shadow: 4px 4px 4px #aaa;
+}
+.hedmenu{
+    display: grid;
+    justify-items: center;
+    text-align: center
+}
+.hedmenu div{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.5s;
+    margin-top: 25px;
+}
+.hedmenu div:hover{
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+.hedmenu a {
+    background-color: cornsilk;
+    border: 2px solid peru;
+    border-radius: 10px;
+    height: 70px;
+    color: palevioletred;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-decoration: none;
+    text-shadow: 4px 4px 4px #aaa;
+    margin-top: 50px;
+}
+.ceks {
+    margin-top: 20px;
+    display: grid;
+    grid-template-areas:
+    'gallery gallery gallery gallery';
+    grid-gap: 10px;
+     justify-items: center;
+
+}
+
+div.gallery {
+    margin: 5px;
+    border: 2px solid peru;
+    float: left;
+    width: 250px;
+    background-color: cornsilk;
+    border-radius: 10px;
+  }
+  
+  div.gallery:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+.windowkont{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    
+    
+}
+.contenthiden{
+    display: none;
+}
+
+.window{
+    background: url(foncall.jpg);
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-flow: column ;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid rgb(40, 35, 56);
+    border-radius: 40px;
+    
+}
+
+.over{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.871);
+}
+.cont{
+    display: grid;
+    grid-template-areas:
+    'img div';
+    grid-gap: 10px;
+     justify-items: center;
+}
+.windowmenu{
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.menu1 {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    color: rgb(71, 12, 74);
+    background-color: antiquewhite;
+    border-radius: 10px;
+    font-size: 2rem;
+    padding: 20px;
+    border: 3px solid rgb(71, 12, 74);
+}
+.windowmenu button {
+    background-color: antiquewhite;
+    color: rgb(71, 12, 74);
+    font-size: 1.5rem;
+    border: 3px solid rgb(71, 12, 74);
+    border-radius: 10px;
+}
+
+.list-group {
+    border: 3px solid peru;
+    background-color: antiquewhite;
+    color: forestgreen;
+    justify-items: center;
+    font-size: 3rem;
+    padding: 20px;
+    text-shadow: 4px 4px 4px #aaa; 
+    display: grid;
+    grid-template-areas: 
+    'list-group-item list-group-item list-group-item list-group-item list-group-item';
+}
+
+[data-name], [data-tab] {
+    cursor: pointer;
+}
+.veber {
+    background-color: none;
+    display: grid;
+    grid-template-areas: 'logokont logokont logokont';
+    grid-gap: 40px;
+}
+.logokont {
+    width: 80px;
+    height: 80px;
+}
+.list-header {
+    font-weight: 700;
+}
+
+.list-content {
+    background-color: rgb(216, 246, 239);
+}
+
+.fade-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:  forestgreen;
+}
+
+.modal-window {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-hidden {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+.tortdennar {
+    margin: 0px;
+  padding: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tabmenu div{
+    justify-items: center;
+    text-align: center
+}
